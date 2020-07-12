@@ -21,8 +21,8 @@ class Dog {
 
 class Bird {
   constructor(name, sex){
-    self.name = name
-    self.sex = sex
+    this.name = name
+    this.sex = sex
   }
   
   speak(){
