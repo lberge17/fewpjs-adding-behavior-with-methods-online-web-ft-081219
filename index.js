@@ -1,7 +1,7 @@
 // Your code here
 class Cat {
   constructor(name){
-    self.name = name
+    this.name = name
   }
   
   speak(){
