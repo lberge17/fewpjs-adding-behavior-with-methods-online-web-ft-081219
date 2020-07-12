@@ -11,7 +11,7 @@ class Cat {
 
 class Dog {
   constructor(name){
-    self.name = name
+    this.name = name
   }
   
   speak(){
