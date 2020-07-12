@@ -6,9 +6,13 @@ class Cat {
 }
 
 class Dog {
-  
+  speak(){
+    
+  }
 }
 
 class Bird {
-  
+  speak(){
+    
+  }
 }
