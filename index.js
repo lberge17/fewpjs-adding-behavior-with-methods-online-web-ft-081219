@@ -20,11 +20,16 @@ class Dog {
 }
 
 class Bird {
-  constructor(name){
+  constructor(name, sex){
     self.name = name
+    self.sex = sex
   }
   
   speak(){
-    return `${self.name} says squawk!`
+    if (self.sex === 'male') {
+      return `It's me! ${self.name} the parrot!`
+    } else {
+      return `${self.name} says squawk!`
+    }
   }
 }
